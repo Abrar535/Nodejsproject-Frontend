@@ -127,7 +127,7 @@
                         ref="myCm"
                         v-model="code"
                         :options="cmOptions"
-                        @focus="onCmFocus"
+                       
                       />
                     </div>
 
@@ -287,7 +287,7 @@ import Navbar from "../components/Navbar.vue";
 //codemirror imports
 export default {
   components: {
-    // eslint-disable-next-line vue/no-unused-components
+   
     codemirror,
     Navbar
   },
@@ -557,7 +557,7 @@ export default {
         `http://${this.host}:3000/api/persons/valid/${this.person.handle}/${this.person.room_code}/${this.person.select}`
       )
       .then(() => {})
-      // eslint-disable-next-line no-unused-vars
+      
       .catch(err => {
         console.log(err);
 
@@ -675,7 +675,7 @@ export default {
         selected_code = selected_line + 1 + ")" + selected_code;
         this.msg = selected_code;
         this.highlight = true;
-        //this.io.emit('doubleclicked',selected_code);
+      
       }
     });
   }
