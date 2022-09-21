@@ -15,7 +15,7 @@
     "vue-codemirror": "^4.0.6",
     "vue-router": "^3.1.6",
     "vue-sweetalert2": "^3.0.3",
-    "vuetify": "^2.2.11"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",
