@@ -1,4 +1,5 @@
 <template>
+  <button> Click here </button>
   <v-app app>
     <v-content>
       <router-view></router-view>
